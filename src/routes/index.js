@@ -4,7 +4,7 @@ import apiRoutes from './api/index.js'
 const routes = Router()
 
 routes.get('/', (req, res) => {
-    res.send('Hola Mundo');
+    res.send('Bienvenido');
 })
 
 routes.use('/api', apiRoutes);
